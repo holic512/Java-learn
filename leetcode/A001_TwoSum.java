@@ -1,6 +1,6 @@
 package leetcode;
 
-public class TwoSum_1 {
+public class A001_TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length - 1; i++) {
@@ -15,7 +15,7 @@ public class TwoSum_1 {
 
     public static void main(String[] args) {
 
-        TwoSum_1 test = new TwoSum_1();
+        A001_TwoSum test = new A001_TwoSum();
 
         // 测试1
         int[] nums = {2, 7, 11, 15};
