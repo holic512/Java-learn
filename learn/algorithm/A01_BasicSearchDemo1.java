@@ -16,18 +16,13 @@ public class A01_BasicSearchDemo1 {
         int[] arr = {131, 127, 147, 81, 103, 23, 7, 79};
         int target = 127;
 
-        boolean result1 = basicSearch(arr, target);
-        System.out.println("第一种写法的结果是:" + result1);
-
         boolean result2 = newBasicSearch(arr, target);
-        System.out.println("第二种写法的结果是:" + result2);
+        System.out.println("结果是:" + result2);
+
     }
 
-
     /*
-    参数：   数组 查找的元素
-    返回值： 元素是否存在
-     */
+    旧版本写法
     public static boolean basicSearch(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == target) {
@@ -36,6 +31,7 @@ public class A01_BasicSearchDemo1 {
         }
         return false;
     }
+    */
 
     public static boolean newBasicSearch(int[] nums, int target) {
         for (int num : nums) {
