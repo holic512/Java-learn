@@ -1,4 +1,4 @@
-package learn.algorithm;
+package learn.P12_algorithm.search;
 
 import java.util.ArrayList;
 import java.util.Arrays;

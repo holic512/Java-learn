@@ -1,4 +1,4 @@
-package learn.algorithm;
+package learn.P12_algorithm.search;
 
 public class A02_BinarySearchDemo2 {
     // 插值查找-二分查找(优化方案)
