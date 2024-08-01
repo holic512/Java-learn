@@ -22,6 +22,6 @@ public class A01_ObjectDemo1 {
         // 包名+类名+地址
 
 
-        //
+        //比较两个对象是否相等
     }
 }
