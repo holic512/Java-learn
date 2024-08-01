@@ -1,4 +1,4 @@
-package learn.P12_algorithm.search;
+package learn.P12_algorithm.B01_search;
 
 public class A01_BasicSearchDemo1 {
     public static void main(String[] args) {

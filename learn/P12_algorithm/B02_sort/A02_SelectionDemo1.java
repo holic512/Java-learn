@@ -1,4 +1,4 @@
-package learn.P12_algorithm.sort;
+package learn.P12_algorithm.B02_sort;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package learn.P12_algorithm.search;
+package learn.P12_algorithm.B01_search;
 
 public class A02_BinarySearchDemo1 {
     // 二分查找/折半查找
