@@ -34,7 +34,7 @@ public class A01_Collection {
         System.out.println(coll);
 
 
-        // 删除
+        // 删除元素
         // 细节1:因为Collection里定义的是共性的方法,不存在索引
         // 细节2:会返回布尔值,当存在此数据成功删除返回true,不存在失败返回false
         coll.add("aaa");
@@ -44,12 +44,20 @@ public class A01_Collection {
 
 
         // 判断是否包含此变量
-        // 细节:底层是依赖equals方法判断是否存在的
+        // 细节:底层是依赖object.equals(根据地址值)方法判断是否存在的
         // 如果集合中存储的是自定变量,也想判断,一定要重写equals
         boolean result = coll.contains("aaa");
         System.out.println(result);
         result = coll.contains("bbb");
         System.out.println(result);
+
+        // 判断集合是否为空
+        result = coll.isEmpty();
+        System.out.println(result);
+
+        // 获取集合长度(当前元素个数)
+        int size = coll.size();
+        System.out.println(size);
 
     }
 }
