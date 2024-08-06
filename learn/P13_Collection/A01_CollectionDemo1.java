@@ -1,9 +1,9 @@
-package learn.P13_aggregate;
+package learn.P13_Collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class A01_Collection {
+public class A01_CollectionDemo1 {
     /*
         Collection是单列集合的祖宗接口,它的功能是全部单列集合都可以继承使用的
 
